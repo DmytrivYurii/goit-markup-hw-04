@@ -36,6 +36,9 @@ img {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 .navigation-title {
   display: flex;
@@ -45,6 +48,7 @@ img {
 .navigation-item {
 }
 .navigation-logo {
+  position: relative;
   margin-right: 76px;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -81,6 +85,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-link .link:hover {
   color: #404bbf;
@@ -94,13 +99,22 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+.navigation-link .link::after {
+  content: normal;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
 .navigation-title-contacts {
   display: flex;
   font-family: "Roboto";
   font-weight: 400;
   margin-left: 320px;
   font-style: normal;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-contacts-link:hover,
 .navigation-contacts-link:focus {
@@ -150,9 +164,13 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\ 1.jpg);
+    url(../images/img-name.jpg);
   background-color: #2e2f42;
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
   width: 1440px;
+  max-width: 1440px;
   height: 600px;
   flex-shrink: 0;
   padding: 188px 0;
@@ -186,6 +204,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -386,7 +405,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.container-footer{
+.container-footer {
   width: 264px;
   height: 112px;
 }
@@ -400,17 +419,17 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.social-media-footer{
+.social-media-footer {
   display: inline-block;
   width: 208px;
   height: 80px;
 }
-.footer-subtext{
+.footer-subtext {
   margin-bottom: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FFF;
+  color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
