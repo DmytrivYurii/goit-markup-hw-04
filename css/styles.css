@@ -46,8 +46,6 @@ img {
 }
 
 .navigation-item {
-  position: relative;
-  color: #404bbf;
 }
 .navigation-item::after{
   content: "";
@@ -92,6 +90,8 @@ img {
 }
 
 .navigation-link {
+  position: relative;
+  color: #404bbf;
   padding: 24px 0;
   font-family: "Roboto";
   color: #2e2f42;
