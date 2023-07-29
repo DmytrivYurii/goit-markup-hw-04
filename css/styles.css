@@ -74,8 +74,10 @@ img {
   color: #404bbf;
 }
 .navigation-list {
+  position: relative;
   display: flex;
   gap: 40px;
+  color: #404bbf;
 }
 .navigation-link {
   padding: 24px 0;
