@@ -47,20 +47,10 @@ img {
 
 .navigation-item {
 }
-.navigation-item::after{
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
-
-}
 .navigation-logo {
   position: relative;
   margin-right: 76px;
-  color: #4d5ae5;
+  color: #404bbf;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -69,6 +59,16 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+}
+.navigation-logo::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+
 }
 
 .navigation-logo .link:hover {
