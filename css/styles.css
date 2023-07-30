@@ -283,13 +283,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.company-container{
+.company-icon-block {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 112px;
-}
-.company-icon-block {
   width: 264px;
   background: #f4f4fd;
   position: relative;
