@@ -285,6 +285,10 @@ img {
 }
 
 .company-icon-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
   width: 264px;
   background: #f4f4fd;
   position: relative;
