@@ -682,13 +682,10 @@ img {
 }
 .btn-close:hover,
 .btn-close:focus{
+  fill: #ffffff;  
   background-color: #404bbf;
   border: none;
 }
 .icon-close{
  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.icon-close:hover,
-.icon-close:focus{
-  fill: #ffffff;  
 }
