@@ -462,6 +462,10 @@ img {
   height: 312px;
   flex-shrink: 0;
 }
+.footer-wrap{
+  display: flex;
+  align-items: baseline;
+}
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
@@ -473,19 +477,9 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-/*
-.footer-left {
-  display: inline-block;
+.container-footer{
   margin-right: 120px;
-  width: 264px;
-  max-width: 264px;
 }
-.footer-right{
-  display: inline-block;
-  margin-right: 120px;
-  width: 264px;
-  max-width: 264px;
-}*/
 .footer-title {
   font-family: "Roboto", sans-serif;
   width: 264px;
