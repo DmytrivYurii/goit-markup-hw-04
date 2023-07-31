@@ -449,7 +449,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: #8e8f99;
+  fill: currentColor;
 }
 
 /*---------------------Section Footer-----------------*/
