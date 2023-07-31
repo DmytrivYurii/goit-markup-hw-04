@@ -475,10 +475,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.container-footer {
+.footer-left {
+  display: inline-block;
   margin-right: 120px;
   width: 264px;
-  height: 112px;
+  max-width: 264px;
 }
 .footer-title {
   font-family: "Roboto", sans-serif;
@@ -490,10 +491,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.social-media-footer {
-  display: flex;
-  width: 208px;
-  height: 80px;
+.footer-right{
+  display: inline-block;
+  margin-right: 120px;
+  width: 264px;
+  max-width: 264px;
 }
 .footer-subtext {
   margin-bottom: 16px;
@@ -632,7 +634,8 @@ img {
   padding: 40px 32px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.box:hover .overlay {
+.box:hover .overlay,
+.box:focus .overlay {
   transform: translatey(0);
 }
 /*------------------Modal page---------------------*/
