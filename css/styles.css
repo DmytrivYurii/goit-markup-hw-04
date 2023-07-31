@@ -372,8 +372,12 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  
 }
+.container-team-svg:hover,
+.container-team-svg:focus{
+  background-color: #404bbf;
+}
+
 .social-media-list {
   display: flex;
   justify-content: center;
