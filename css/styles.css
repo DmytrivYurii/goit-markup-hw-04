@@ -376,7 +376,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 24px;
 }
 .social-medial-icon {
   display: flex;
@@ -464,6 +464,12 @@ img {
 .footer-wrap{
   display: flex;
   align-items: baseline;
+}
+.social-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 .footer-link {
   display: inline-block;
