@@ -508,6 +508,7 @@ img {
   gap: 16px;
 }
 .border-icon-footer {
+  gap: 16px;
   display: flex;
   fill: #f4f4fd;
   background-color: #4d5ae5;
