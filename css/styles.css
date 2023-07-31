@@ -368,11 +368,9 @@ img {
 }
 .teamc {
 }
-.container-team-svg{
-  display: flex;
-  justify-content: center;
-  gap: 24px;
+/*.container-team-svg{
 }
+*/
 .container-team-svg:hover,
 .container-team-svg:focus{
   background-color: #404bbf;
@@ -385,6 +383,9 @@ img {
   gap: 24px;
 }
 .social-medial-icon {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 .border-icon {
   display: flex;
