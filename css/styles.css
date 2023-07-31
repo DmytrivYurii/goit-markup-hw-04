@@ -454,6 +454,7 @@ img {
 
 /*---------------------Section Footer-----------------*/
 .footer {
+  display: flex;
   padding: 100px 0;
   background-color: #2e2f42;
   font-family: "Raleway", sans-serif;
@@ -473,6 +474,7 @@ img {
   text-transform: uppercase;
 }
 .container-footer {
+  margin-right: 120px;
   width: 264px;
   height: 112px;
 }
@@ -503,7 +505,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+.social-footer-icon{
+  display: flex;
+  gap: 16px;
+}
 /*--------------------Portfolio----------------------*/
 
 /*-------------------------Section Button--------------------*/
