@@ -329,7 +329,6 @@ img {
 }
 .team-subtitle {
   display: block;
-  gap: 24px;
   margin-bottom: 72px;
   color: #2e2f42;
   text-align: center;
@@ -381,7 +380,6 @@ img {
 .social-medial-icon {
   display: flex;
   justify-content: center;
-  gap: 24px;
 }
 .border-icon {
   display: flex;
