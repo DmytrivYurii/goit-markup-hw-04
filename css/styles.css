@@ -612,6 +612,10 @@ img {
   position: relative;
   overflow: hidden;
 }
+.box:hover,
+.box:focus{
+  transform: translateY(0%);
+}
 .overlay{
   position: absolute;
   top: 0;
@@ -629,7 +633,7 @@ img {
 }
 .box:hover .overlay,
 .box:focus .overlay {
-  transform: translateY(0);
+  transform: translatey(0);
 }
 /*------------------Modal page---------------------*/
 
