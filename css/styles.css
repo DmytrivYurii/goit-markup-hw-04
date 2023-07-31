@@ -103,6 +103,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .current{
   position: relative;
@@ -687,9 +688,7 @@ img {
 .icon-close{
  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-close:hover{
-  fill: #ffffff;  
-}
+.icon-close:hover,
 .icon-close:focus{
   fill: #ffffff;  
 }
