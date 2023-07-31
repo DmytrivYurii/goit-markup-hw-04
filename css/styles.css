@@ -489,7 +489,7 @@ img {
   letter-spacing: 0.02em;
 }
 .social-media-footer {
-  display: inline-block;
+  display: flex;
   width: 208px;
   height: 80px;
 }
