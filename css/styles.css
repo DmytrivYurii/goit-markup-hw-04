@@ -509,6 +509,21 @@ img {
   display: flex;
   gap: 16px;
 }
+.border-icon-footer {
+  display: flex;
+  fill: #f4f4fd;
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.border-icon-footer:hover,
+.border-icon-footer:focus{
+  background-color: #31d0aa;
+}
 /*--------------------Portfolio----------------------*/
 
 /*-------------------------Section Button--------------------*/
