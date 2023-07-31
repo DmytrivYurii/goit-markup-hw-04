@@ -503,6 +503,7 @@ img {
 }
 .social-footer-icon{
   display: flex;
+  gap: 16px;
 }
 .border-icon-footer {
   display: flex;
