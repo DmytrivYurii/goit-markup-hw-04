@@ -498,7 +498,7 @@ img {
 .footer-subtext {
   margin-bottom: 16px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   color: #fff;
   font-family: "Roboto", sans-serif;
